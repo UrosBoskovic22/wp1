@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jq -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ramswaroop/animatescroll.js@1.0.0/animatescroll.min.js"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <!-- ico -->
+    <link rel="shortcut icon" href="assets/img/logo-no-background.png" type="x-icon/image"/>
+    
+
+    <title>Crystal Touch</title>
+</head>
+<body>
+    
+    <header>
+        <div class="shadow">
+            <nav>
+                <h1>
+                    <a href="index.html">Crystal Touch</a>
+                </h1>
+                <ul>
+                    <li class="navLi">
+                        <a href="header" class="scrollLink">Home</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#jewelryPath" class="scrollLink">Jewelry</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#stonesPath" class="scrollLink">Stones</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <img src="assets/img/logo-no-background.png" alt="">
+            </nav>
+
+            <div class="introContent">
+                <h2>Welcome to the world of unique jewelry</h2>
+                <p>Explore our collection and find the perfect piece for yourself or your loved one.</p>
+                <a href="#jewelryPath" class="scrollLink"><button>Check yourselves</button></a>
+                
+            </div>
+
+        </div>
+    </header>
+
+
+    <div class="naslov" id="jewelryPath">
+        <h1>Jewelry</h1>
+    </div>
+    <div class="jewelry"></div>
+
+
+
+
+    <div class="naslov" id="stonesPath">
+        <h1>Stones you can choose</h1>
+    </div>
+    <div class="stones">
+        <div class="stoneSlider">
+            <div class="stoneImgBox">
+                <img src="assets/img/kamen9.jpeg" alt="kamen1" type="image/jpg" class="stoneSliderImg">
+            </div>
+            <!-- <div class="stoneButtonHolder"> -->
+                <button class="stoneBtn" onclick="prev()">&lt;</button>
+                <button class="stoneBtn" onclick="next()">&gt;</button>
+            <!-- </div> -->
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="naslov">
+        <h1>Our Sponsors</h1>
+    </div>
+    <div class="sponsors">
+        <div class="sponsorBox">
+            <img src="assets/img/nike.jpeg" alt="nike logo" type="image/jpeg"/>
+        </div>
+        <div class="sponsorBox">
+            <img src="assets/img/hugoboss.jpeg" alt="hugo logo" type="image/jpeg"/>
+        </div>
+        <div class="sponsorBox">
+            <img src="assets/img/guess.jpeg" alt="guess logo" type="image/jpeg"/>
+        </div>
+        <div class="sponsorBox">
+            <img src="assets/img/dior.jpeg" alt="dior logo" type="image/jpeg"/>
+        </div>
+    </div>
+
+    <button id="seeMoreBtn">See More</button>
+    
+    
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
